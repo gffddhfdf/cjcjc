@@ -43,6 +43,8 @@ elseif a=="cxklz6666xh"then
 _G.whitelist=true
 elseif a=="Sotsdl"then
 _G.whitelist=true
+elseif a=="cxkjntm114_2"then
+_G.whitelist=true
 end
 if _G.whitelist==true then
     local CoreGui = game:GetService("StarterGui")
@@ -3184,6 +3186,11 @@ Tab1:Button("门(游戏",function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKingMb"))()
     print("hi")
 end) 
+Tab1 = Library:Tab("cw(粉丝提供)")
+Tab1:Button("cw1",function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/novahub"))()
+    print("hi")
+end)    
     else 
 local ScreenGui = Instance.new("ScreenGui")
 local UI = Instance.new("Frame")
@@ -6377,6 +6384,11 @@ Tab1:Button("门(游戏",function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKingMb"))()
     print("hi")
 end) 
+Tab1 = Library:Tab("cw(粉丝提供)")
+Tab1:Button("cw1",function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/novahub"))()
+    print("hi")
+end)    
     else
         game.Players.LocalPlayer:Kick("sm玩意给我去搞卡密，没卡密玩腻吗整合脚本，小心我拿筷子插烂你m的13")
     end
